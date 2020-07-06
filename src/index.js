@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "./bootstrap.min.css";
+import CustomForm from "./CustomForm";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CustomForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
